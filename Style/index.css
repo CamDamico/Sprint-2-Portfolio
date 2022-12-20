@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: lightcyan;
+  height: 35px;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+}
+
+#title {
+  padding-left: 2%;
+  font-size: 1.3rem;
+  padding-top: 5px;
+  font-family: "Inter";
+}
+
+.buttons {
+  padding-right: 2%;
+  font-size: 1rem;
+  padding-top: 5px;
+}
+
+#AboutMe {
+  text-decoration: none;
+  color: black;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.42);
+}
+
+#Projects {
+  text-decoration: none;
+  padding-left: 4px;
+  color: black;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.42);
+}
+
+#Links {
+  text-decoration: none;
+  padding-left: 4px;
+  color: black;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.42);
+}
+
+body {
+  background-color: lightskyblue;
+}
+
+#aboutme {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 1.3em;
+}
+
+#aboutDesc {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#projectTitle {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#Project1 {
+  width: 100%;
+  padding: 5rem;
+}
+
+#Project1Desc {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 1.3em;
+  font-family: "Inter";
+}
+
+#Project2 {
+  width: 100%;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+#BigGary1 {
+  padding-right: 10px;
+}
+
+#Project2Desc {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 1.3em;
+  font-family: "Inter";
+}
+
+#Project3 {
+  width: 100%;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+#Project3Desc {
+  padding-top: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 1.3em;
+  font-family: "Inter";
+}
+
+#LinkTitle {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 10px;
+}
+
+#LinkDesc {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 1.3em;
+  font-family: "Inter";
+}
+
+#MyLinks {
+  display: flex;
+  justify-content: center;
+}
+
+#GitHub {
+  margin-top: 30px;
+  margin-right: 5px;
+  padding: 10px 25px;
+}
+
+#Linkden {
+  margin-top: 30px;
+  margin-left: 5px;
+  padding: 10px 25px;
+}
+
+footer {
+  display: flex;
+  justify-content: right;
+  padding-right: 3%;
+  margin-top: 5%;
+  padding-top: 10px;
+  background-color: rgba(0, 0, 0, 0.43);
+  backdrop-filter: blur(5px);
+}
+
+#XmlTitle {
+  display: flex;
+  justify-content: center;
+  padding-top: 15vh;
+}
+
+#XmlDesc {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 1.3em;
+  font-family: "Inter";
+}
+
+#Bitcoin {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+}
+
+#btn {
+  margin-right: 15px;
+}
+
+#output {
+  border: 2px solid gold;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+#footer {
+  padding-bottom: 5px;
+  color: #ffffff;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.57);
+}
